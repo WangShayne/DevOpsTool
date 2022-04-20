@@ -39,5 +39,9 @@
     "vite",
     "vue3",
     "vue"
-  ]
+  ],
+  "dependencies": {
+    "ant-design-vue": "^3.1.1",
+    "pinia": "^2.0.0-rc.10"
+  }
 }

@@ -2,21 +2,12 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue'
+import Layout from './components/Layout.vue'
+
 </script>
 
 <template>
-  <div class="logo-box">
-    <img style="height:140px;" src="./assets/electron.png" >
-    <span/>
-    <img style="height:140px;" src="./assets/vite.svg" >
-    <span/>
-    <img style="height:140px;" src="./assets/vue.png" >
-  </div>
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-  <div class="static-public">
-    Place static files into the <code>src/renderer/public</code> folder
-    <img style="width:90px;" :src="'./images/node.png'" >
-  </div>
+  <Layout />
 </template>
 
 <style>
@@ -26,7 +17,6 @@ import HelloWorld from './components/HelloWorld.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 .logo-box {
